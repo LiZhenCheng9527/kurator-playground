@@ -1,0 +1,28 @@
+{
+    "title": "Install Kmesh",
+    "description": "Installing Kmesh on Kubernetes",
+    "details": {
+      "intro": {
+        "text": "intro.md",
+        "foreground": "foreground.sh"
+      },
+      "steps": [
+        {
+          "title": "Install of dependencies",
+          "text": "step1/text.md",
+          "verify": "step1/run.sh"
+        },
+        {
+          "title": "Install Kmesh",
+          "text": "step2/text.md",
+          "verify": "step2/run.sh"
+        }
+      ],
+      "finish": {
+        "text": "finish.md"
+      }
+    },
+    "backend": {
+      "imageid": "kubernetes-kubeadm-1node-4GB"
+    }
+  }
